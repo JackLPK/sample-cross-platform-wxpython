@@ -4,11 +4,9 @@ Should work in Windows, MacOS, and Linux.
 
 
 ## What it does
----
 The application erform simple JSON validation, and CRC32 checksum of JSON in formatted form.
 
 ## Installation
----
 You can use this application as an executable, or as python code.
 
 ### As an executable
