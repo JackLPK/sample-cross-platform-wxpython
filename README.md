@@ -4,33 +4,37 @@ Should work in Windows, MacOS, and Linux.
 
 
 ## What it does
+---
 The application erform simple JSON validation, and CRC32 checksum of JSON in formatted form.
 
 ## Installation
+---
 You can use this application as an executable, or as python code.
 
 ### As an executable
-Install packages
+Install packages.
 ```
 pip3 install -r requirements/dev.txt
 ```
-Use [PyInstaller](https://www.pyinstaller.org/) directly (modifying .spec file not needed)
+Use [PyInstaller](https://www.pyinstaller.org/) directly (modifying .spec file not needed).
 ```
-pyinstaller app.py
+pyinstaller --windowed app.py
 ```
-Execute the executable
+Execute the executable, click to run.
 ```
-dist/app/app    # on Linux, MacOS
+dist/app/app    # Linux
 or
-dist\app\app.exe    # on Windows
+dist/app.app    # MacOS
+or
+dist\app\app.exe    # Windows
 ```
 
 ### As code
-Install packages
+Install packages.
 ```
 pip3 install -r requirements/common.txt
 ```
-Run code
+Run code.
 ```
 python3 app.py
 ```
