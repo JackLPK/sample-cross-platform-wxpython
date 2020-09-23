@@ -5,7 +5,7 @@ Should work in Windows, MacOS, and Linux.
 ![](https://user-images.githubusercontent.com/59538991/94044919-b168aa80-fdc6-11ea-8de6-9355e6bcbeed.png)
 
 ## What it does
-The application erform simple JSON validation, and CRC32 checksum of JSON in formatted form.
+The application performs simple JSON validation, and CRC32 checksum of JSON in formatted form.
 
 ## Installation
 You can use this application as an executable, or as python code.
